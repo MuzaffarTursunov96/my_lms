@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-23 12:44+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\templates\about.html:11 .\templates\about.html:15 .\templates\base.html:92
+#: .\templates\includes\header.html:41
+msgid "About Us"
+msgstr ""
+
+#: .\templates\about.html:14 .\templates\base.html:88
+#: .\templates\contact.html:14 .\templates\course\search_course.html:15
+#: .\templates\includes\header.html:39
+msgid "Home"
+msgstr ""
+
+#: .\templates\base.html:71
+msgid "Cancel Preloader"
+msgstr ""
+
+#: .\templates\base.html:95 .\templates\includes\header.html:43
+msgid "Courses"
+msgstr ""
+
+#: .\templates\base.html:112 .\templates\includes\header.html:61
+msgid "Contact Us"
+msgstr ""
+
+#: .\templates\contact.html:11 .\templates\contact.html:15
+msgid "Contac Us"
+msgstr ""
+
+#: .\templates\contact.html:28
+msgid "Get in Touch"
+msgstr ""
+
+#: .\templates\contact.html:29 .\templates\contact.html:51
+msgid "become a partner school, or discover more about our work."
+msgstr ""
+
+#: .\templates\contact.html:30
+msgid "Regional Office"
+msgstr ""
+
+#: .\templates\contact.html:33
+msgid "Office hours are 9am – 5pm"
+msgstr ""
+
+#: .\templates\contact.html:33
+msgid "Monday-Thursday and 9am – 4.30pm on Friday."
+msgstr ""
+
+#: .\templates\contact.html:37
+msgid "1309 Beacon Street, Suite 300, Brookline, MA, 02446"
+msgstr ""
+
+#: .\templates\contact.html:50
+msgid "any questions?"
+msgstr ""
+
+#: .\templates\contact.html:53
+msgid "Your Name"
+msgstr ""
+
+#: .\templates\contact.html:56
+msgid "Email Address"
+msgstr ""
+
+#: .\templates\contact.html:59
+msgid "Phone No"
+msgstr ""
+
+#: .\templates\contact.html:63
+msgid "Select Subject"
+msgstr ""
+
+#: .\templates\contact.html:66
+msgid "Private Tutor"
+msgstr ""
+
+#: .\templates\contact.html:67
+msgid "Admission Session"
+msgstr ""
+
+#: .\templates\contact.html:71
+msgid "Write your message"
+msgstr ""
+
+#: .\templates\contact.html:73
+msgid "send message"
+msgstr ""
+
+#: .\templates\contact.html:74
+msgid "For message will display here"
+msgstr ""
+
+#: .\templates\course\search_course.html:12
+#: .\templates\course\search_course.html:16
+msgid "Our Courses Two"
+msgstr ""
+
+#: .\templates\course\search_course.html:65
+msgid "No articles found."
+msgstr ""
+
+#: .\templates\course\search_course.html:72
+#: .\templates\course\search_course.html:74
+msgid "Previous"
+msgstr ""
+
+#: .\templates\course\search_course.html:107
+#: .\templates\course\search_course.html:109
+msgid "Next"
+msgstr ""
+
+#: .\templates\includes\footer.html:17
+msgid ""
+"Lorem ipsum dolor sit amet, consectet rem ips dolor sit amet. sum dolor sit "
+"amet, consectet e dolor sit amet, comod."
+msgstr ""
+
+#: .\templates\includes\footer.html:25
+msgid "Study Links"
+msgstr ""
+
+#: .\templates\includes\footer.html:28
+msgid "All Courses"
+msgstr ""
+
+#: .\templates\includes\footer.html:29
+msgid "Summer Sessions"
+msgstr ""
+
+#: .\templates\includes\footer.html:30
+msgid "Best Courses"
+msgstr ""
+
+#: .\templates\includes\footer.html:31
+msgid "Hire teachers"
+msgstr ""
+
+#: .\templates\includes\footer.html:32
+msgid "Program FAQs"
+msgstr ""
+
+#: .\templates\includes\footer.html:39
+msgid "Quick Links"
+msgstr ""
+
+#: .\templates\includes\footer.html:42
+msgid "Community"
+msgstr ""
+
+#: .\templates\includes\footer.html:43
+msgid "Support"
+msgstr ""
+
+#: .\templates\includes\footer.html:44
+msgid "Video Guides"
+msgstr ""
+
+#: .\templates\includes\footer.html:45
+msgid "Documentation"
+msgstr ""
+
+#: .\templates\includes\footer.html:46
+msgid "Security"
+msgstr ""
+
+#: .\templates\includes\footer.html:53
+msgid "Recent Courses"
+msgstr ""
+
+#: .\templates\includes\header.html:11
+msgid "Phone"
+msgstr ""
+
+#: .\templates\includes\header.html:12
+msgid "Email"
+msgstr ""
+
+#: .\templates\includes\header.html:17
+msgid "Login & Register"
+msgstr ""
+
+#: .\templates\includes\header.html:52
+msgid "Tutor"
+msgstr ""
+
+#: .\templates\includes\header.html:69
+msgid "Find Program"
+msgstr ""
+
+#: .\templates\index.html:18
+msgid "Find your course..."
+msgstr ""
+
+#: .\templates\index.html:19
+msgid "Find Course"
+msgstr ""
+
+#: .\templates\index.html:60
+msgid "our Top Categories"
+msgstr ""
+
+#: .\templates\index.html:61
+msgid "Browse Learn Skills You Need"
+msgstr ""
+
+#: .\templates\index.html:72 .\templates\index.html:132
+msgid "web Developer"
+msgstr ""
+
+#: .\templates\index.html:74 .\templates\index.html:86
+#: .\templates\index.html:98 .\templates\index.html:110
+#: .\templates\index.html:122 .\templates\index.html:134
+#: .\templates\index.html:365
+msgid "course"
+msgstr ""
+
+#: .\templates\index.html:84
+msgid "Basic English"
+msgstr ""
+
+#: .\templates\index.html:96
+msgid "Java Script"
+msgstr ""
+
+#: .\templates\index.html:108
+msgid "tach & coding"
+msgstr ""
+
+#: .\templates\index.html:120
+msgid "IT Service"
+msgstr ""
+
+#: .\templates\index.html:161
+msgid "GLOBAL EDUCATION"
+msgstr ""
+
+#: .\templates\index.html:172 .\templates\index.html:192
+#: .\templates\index.html:398
+msgid "Get More Info"
+msgstr ""
+
+#: .\templates\index.html:188
+msgid "Browse Top Courses​"
+msgstr ""
+
+#: .\templates\index.html:218
+msgid "Browse Top Courses"
+msgstr ""
+
+#: .\templates\index.html:219
+msgid "Most Popular Courses"
+msgstr ""
+
+#: .\templates\index.html:228
+msgid "Preview Course"
+msgstr ""
+
+#: .\templates\index.html:258
+msgid "PRICING PLANS"
+msgstr ""
+
+#: .\templates\index.html:259
+msgid "Lesson Packages"
+msgstr ""
+
+#: .\templates\index.html:265 .\templates\index.html:291
+#: .\templates\index.html:317
+msgid "Standard"
+msgstr ""
+
+#: .\templates\index.html:266 .\templates\index.html:292
+msgid "month"
+msgstr ""
+
+#: .\templates\index.html:267 .\templates\index.html:293
+#: .\templates\index.html:319
+msgid "Secondary Education"
+msgstr ""
+
+#: .\templates\index.html:274 .\templates\index.html:300
+#: .\templates\index.html:326
+msgid "lessons / month"
+msgstr ""
+
+#: .\templates\index.html:275 .\templates\index.html:301
+#: .\templates\index.html:327
+msgid "One-to-one training"
+msgstr ""
+
+#: .\templates\index.html:276 .\templates\index.html:302
+#: .\templates\index.html:328
+msgid "minutes"
+msgstr ""
+
+#: .\templates\index.html:277 .\templates\index.html:303
+#: .\templates\index.html:329
+msgid "Lesson price"
+msgstr ""
+
+#: .\templates\index.html:281 .\templates\index.html:307
+#: .\templates\index.html:333
+msgid "Save"
+msgstr ""
+
+#: .\templates\index.html:282 .\templates\index.html:308
+#: .\templates\index.html:334
+msgid "Discount"
+msgstr ""
+
+#: .\templates\index.html:284 .\templates\index.html:310
+#: .\templates\index.html:336
+msgid "Purchase Now"
+msgstr ""
+
+#: .\templates\index.html:318
+msgid "year"
+msgstr ""
+
+#: .\templates\index.html:355
+msgid "IDEAL TUTOR EVERYONE"
+msgstr ""
+
+#: .\templates\index.html:356
+msgid "Qualified Online Tutors"
+msgstr ""
+
+#: .\templates\index.html:373
+msgid "students"
+msgstr ""
+
+#: .\templates\index.html:396
+msgid "Becoming a"
+msgstr ""
+
+#: .\templates\index.html:396
+msgid "tutors?"
+msgstr ""
+
+#: .\templates\index.html:397
+msgid "Find the for you from over 10,000 teachers"
+msgstr ""
+
+#: .\templates\index.html:417
+msgid "BLOG AND UPDATES"
+msgstr ""
+
+#: .\templates\index.html:418
+msgid "News & Articles"
+msgstr ""
+
+#: .\templates\index.html:439
+msgid "Read More"
+msgstr ""
+
+#: .\templates\lecture.html:110
+msgid "Course Sections"
+msgstr ""

@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-23 12:44+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\templates\about.html:11 .\templates\about.html:15 .\templates\base.html:92
+#: .\templates\includes\header.html:41
+msgid "About Us"
+msgstr "О нас"
+
+#: .\templates\about.html:14 .\templates\base.html:88
+#: .\templates\contact.html:14 .\templates\course\search_course.html:15
+#: .\templates\includes\header.html:39
+msgid "Home"
+msgstr "Главная"
+
+#: .\templates\base.html:71
+msgid "Cancel Preloader"
+msgstr "Отменить предзагрузку"
+
+#: .\templates\base.html:95 .\templates\includes\header.html:43
+msgid "Courses"
+msgstr "Курсы"
+
+#: .\templates\base.html:112 .\templates\includes\header.html:61
+msgid "Contact Us"
+msgstr "Свяжаться"
+
+#: .\templates\contact.html:11 .\templates\contact.html:15
+msgid "Contac Us"
+msgstr "Свяжитесь с нами"
+
+#: .\templates\contact.html:28
+msgid "Get in Touch"
+msgstr "Связаться"
+
+#: .\templates\contact.html:29 .\templates\contact.html:51
+msgid "become a partner school, or discover more about our work."
+msgstr "станьте школой-партнером или узнайте больше о нашей работе."
+
+#: .\templates\contact.html:30
+msgid "Regional Office"
+msgstr "Региональный офис"
+
+#: .\templates\contact.html:33
+msgid "Office hours are 9am – 5pm"
+msgstr "Часы работы с 9:00 до 17:00"
+
+#: .\templates\contact.html:33
+msgid "Monday-Thursday and 9am – 4.30pm on Friday."
+msgstr "с понедельника по четверг и с 9:00 до 16:30 в пятницу."
+
+#: .\templates\contact.html:37
+msgid "1309 Beacon Street, Suite 300, Brookline, MA, 02446"
+msgstr "1309 Beacon Street, Suite 300, Бруклин, Массачусетс, 02446"
+
+#: .\templates\contact.html:50
+msgid "any questions?"
+msgstr "Есть вопросы?"
+
+#: .\templates\contact.html:53
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: .\templates\contact.html:56
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: .\templates\contact.html:59
+msgid "Phone No"
+msgstr "Номер телефона"
+
+#: .\templates\contact.html:63
+msgid "Select Subject"
+msgstr "Выберите тему"
+
+#: .\templates\contact.html:66
+msgid "Private Tutor"
+msgstr "Частный репетитор"
+
+#: .\templates\contact.html:67
+msgid "Admission Session"
+msgstr "Приемная сессия"
+
+#: .\templates\contact.html:71
+msgid "Write your message"
+msgstr "Напишите ваше сообщение"
+
+#: .\templates\contact.html:73
+msgid "send message"
+msgstr "Отправить сообщение"
+
+#: .\templates\contact.html:74
+msgid "For message will display here"
+msgstr "Сообщение будет отображаться здесь"
+
+#: .\templates\course\search_course.html:12
+#: .\templates\course\search_course.html:16
+msgid "Our Courses Two"
+msgstr "Наши курсы два"
+
+#: .\templates\course\search_course.html:65
+msgid "No articles found."
+msgstr "Статей не найдено."
+
+#: .\templates\course\search_course.html:72
+#: .\templates\course\search_course.html:74
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: .\templates\course\search_course.html:107
+#: .\templates\course\search_course.html:109
+msgid "Next"
+msgstr "Следующий"
+
+#: .\templates\includes\footer.html:17
+msgid ""
+"Lorem ipsum dolor sit amet, consectet rem ips dolor sit amet. sum dolor sit "
+"amet, consectet e dolor sit amet, comod."
+msgstr "Lorem ipsum dolor sit amet, consectet rem ips dolor sit amet. sum dolor sit amet, consectet e dolor sit amet, comod."
+
+#: .\templates\includes\footer.html:25
+msgid "Study Links"
+msgstr "Полезные ссылки"
+
+#: .\templates\includes\footer.html:28
+msgid "All Courses"
+msgstr "Все курсы"
+
+#: .\templates\includes\footer.html:29
+msgid "Summer Sessions"
+msgstr "Летние сессии"
+
+#: .\templates\includes\footer.html:30
+msgid "Best Courses"
+msgstr "Лучшие курсы"
+
+#: .\templates\includes\footer.html:31
+msgid "Hire teachers"
+msgstr "Нанять учителей"
+
+#: .\templates\includes\footer.html:32
+msgid "Program FAQs"
+msgstr "Часто задаваемые вопросы по программе"
+
+#: .\templates\includes\footer.html:39
+msgid "Quick Links"
+msgstr "Быстрые ссылки"
+
+#: .\templates\includes\footer.html:42
+msgid "Community"
+msgstr "Сообщество"
+
+#: .\templates\includes\footer.html:43
+msgid "Support"
+msgstr "Поддержка"
+
+#: .\templates\includes\footer.html:44
+msgid "Video Guides"
+msgstr "Видеоуроки"
+
+#: .\templates\includes\footer.html:45
+msgid "Documentation"
+msgstr "Документация"
+
+#: .\templates\includes\footer.html:46
+msgid "Security"
+msgstr "Безопасность"
+
+#: .\templates\includes\footer.html:53
+msgid "Recent Courses"
+msgstr "Недавние курсы"
+
+#: .\templates\includes\header.html:11
+msgid "Phone"
+msgstr "Телефон"
+
+#: .\templates\includes\header.html:12
+msgid "Email"
+msgstr "Электронная почта"
+
+#: .\templates\includes\header.html:17
+msgid "Login & Register"
+msgstr "Вход и регистрация"
+
+#: .\templates\includes\header.html:52
+msgid "Tutor"
+msgstr "Репетитор"
+
+#: .\templates\includes\header.html:69
+msgid "Find Program"
+msgstr "Найти программу"
+
+#: .\templates\index.html:18
+msgid "Find your course..."
+msgstr "Найдите свой курс..."
+
+#: .\templates\index.html:19
+msgid "Find Course"
+msgstr "Найти курс"
+
+#: .\templates\index.html:60
+msgid "our Top Categories"
+msgstr "Наши лучшие категории"
+
+#: .\templates\index.html:61
+msgid "Browse Learn Skills You Need"
+msgstr "Изучите необходимые навыки"
+
+#: .\templates\index.html:72 .\templates\index.html:132
+msgid "web Developer"
+msgstr "Веб-разработчик"
+
+#: .\templates\index.html:74 .\templates\index.html:86
+#: .\templates\index.html:98 .\templates\index.html:110
+#: .\templates\index.html:122 .\templates\index.html:134
+#: .\templates\index.html:365
+msgid "course"
+msgstr "курс"
+
+#: .\templates\index.html:84
+msgid "Basic English"
+msgstr "Базовый английский"
+
+#: .\templates\index.html:96
+msgid "Java Script"
+msgstr "Java Script"
+
+#: .\templates\index.html:108
+msgid "tach & coding"
+msgstr "технологии и кодирование"
+
+#: .\templates\index.html:120
+msgid "IT Service"
+msgstr "ИТ-услуги"
+
+#: .\templates\index.html:161
+msgid "GLOBAL EDUCATION"
+msgstr "ГЛОБАЛЬНОЕ ОБРАЗОВАНИЕ"
+
+#: .\templates\index.html:172 .\templates\index.html:192
+#: .\templates\index.html:398
+msgid "Get More Info"
+msgstr "Узнать больше"
+
+#: .\templates\index.html:188
+msgid "Browse Top Courses​"
+msgstr "Просмотрите лучшие курсы"
+
+#: .\templates\index.html:218
+msgid "Browse Top Courses"
+msgstr "Просмотрите лучшие курсы"
+
+#: .\templates\index.html:219
+msgid "Most Popular Courses"
+msgstr "Самые популярные курсы"
+
+#: .\templates\index.html:228
+msgid "Preview Course"
+msgstr "Предварительный просмотр курса"
+
+#: .\templates\index.html:258
+msgid "PRICING PLANS"
+msgstr "ТАРИФНЫЕ ПЛАНЫ"
+
+#: .\templates\index.html:259
+msgid "Lesson Packages"
+msgstr "Пакеты уроков"
+
+#: .\templates\index.html:265 .\templates\index.html:291
+#: .\templates\index.html:317
+msgid "Standard"
+msgstr "Стандарт"
+
+#: .\templates\index.html:266 .\templates\index.html:292
+msgid "month"
+msgstr "месяц"
+
+#: .\templates\index.html:267 .\templates\index.html:293
+#: .\templates\index.html:319
+msgid "Secondary Education"
+msgstr "Среднее образование"
+
+#: .\templates\index.html:274 .\templates\index.html:300
+#: .\templates\index.html:326
+msgid "lessons / month"
+msgstr "уроков / месяц"
+
+#: .\templates\index.html:275 .\templates\index.html:301
+#: .\templates\index.html:327
+msgid "One-to-one training"
+msgstr "Индивидуальное обучение"
+
+#: .\templates\index.html:276 .\templates\index.html:302
+#: .\templates\index.html:328
+msgid "minutes"
+msgstr "минут"
+
+#: .\templates\index.html:277 .\templates\index.html:303
+#: .\templates\index.html:329
+msgid "Lesson price"
+msgstr "Стоимость урока"
+
+#: .\templates\index.html:281 .\templates\index.html:307
+#: .\templates\index.html:333
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\templates\index.html:282 .\templates\index.html:308
+#: .\templates\index.html:334
+msgid "Discount"
+msgstr "Скидка"
+
+#: .\templates\index.html:284 .\templates\index.html:310
+#: .\templates\index.html:336
+msgid "Purchase Now"
+msgstr "Купить сейчас"
+
+#: .\templates\index.html:318
+msgid "year"
+msgstr "год"
+
+#: .\templates\index.html:355
+msgid "IDEAL TUTOR EVERYONE"
+msgstr "ИДЕАЛЬНЫЙ РЕПЕТИТОР ДЛЯ ВСЕХ"
+
+#: .\templates\index.html:356
+msgid "Qualified Online Tutors"
+msgstr "Квалифицированные онлайн-репетиторы"
+
+#: .\templates\index.html:373
+msgid "students"
+msgstr "студентов"
+
+#: .\templates\index.html:396
+msgid "Becoming a"
+msgstr "Стать"
+
+#: .\templates\index.html:396
+msgid "tutors?"
+msgstr "репетитором?"
+
+#: .\templates\index.html:397
+msgid "Find the for you from over 10,000 teachers"
+msgstr "Найдите подходящего для вас из более чем 10 000 учителей"
+
+#: .\templates\index.html:417
+msgid "BLOG AND UPDATES"
+msgstr "БЛОГ И ОБНОВЛЕНИЯ"
+
+#: .\templates\index.html:418
+msgid "News & Articles"
+msgstr "Новости и статьи"
+
+#: .\templates\index.html:439
+msgid "Read More"
+msgstr "Читать далее"
+
+#: .\templates\lecture.html:110
+msgid "Course Sections"
+msgstr "Разделы курса"

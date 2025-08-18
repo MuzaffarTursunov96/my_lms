@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% load custom_tags %}
+{% block content %}
+    <!--==============================
+    Breadcumb
+    ============================== -->
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+        <div class="container z-index-common">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">{% trans 'Our Courses Two'%}</h1>
+                <div class="breadcumb-menu-wrap">
+                    <ul class="breadcumb-menu">
+                        <li><a href="{% url 'index' %}">{% trans 'Home'%}</a></li>
+                        <li>{% trans 'Our Courses Two'%}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!--==============================
+      Course Area
+==============================-->
+    <section class="space-top space-extra-bottom">
+        <div class="container">
+            <div class="row">
+                {% for course in courses %}
+                <div class="col-md-6 col-xl-12">
+                    <div class="course-style4 layout2" data-bg-src="assets/img/bg/course-list-bg.png">
+                        <div class="course-img">
+                            <a href="course-details.html"><img class="w-100" src="assets/img/course/course-3-1.jpg" alt="Course Img"></a>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category"><a href="course.html">Busniess Learning</a></div>
+                            <h3 class="course-name"><a href="course-details.html">Advance Begineer's Goal & Managing Quality Course</a></h3>
+                            <div class="course-meta">
+                                <a href="course.html"><i class="fas fa-user-tie"></i><span class="total-student">204 Students</span></a>
+                                <a href="course.html"><i class="far fa-tv"></i><span class="course-hour">12 Leson</span></a>
+                                <a href="course.html"><i class="far fa-clock"></i><span class="course-hour">2h 11m</span></a>
+                            </div>
+                            <div class="course-middle">
+                                <div class="course-price">
+                                    <span class="price"><del>$259</del> $149</span>
+                                    <small class="discount">50% Off</small>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style5 popup-video"><i class="fas fa-play"></i>Preview Course</a>
+                            </div>
+                            <div class="course-bottom">
+                                <div class="course-author">
+                                    <a href="team-details.html" class="text-inherit"><img src="assets/img/about/author-3-1.png" alt="About Author">By Ana Watson</a>
+                                </div>
+                                <div class="course-review">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="review-avarage">( 5.0 )</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% empty %}
+                    <li>{% trans 'No articles found.'%}</li>
+                {% endfor %}
+
+            </div>
+            <div class="vs-pagination">
+                <ul class="pagination">
+                    {% if courses.has_previous %}
+                        <li class="prev"><a href="?page={{ courses.previous_page_number }}">{% trans 'Previous'%}</a></li>
+                    {% else %}
+                        <li class="prev disabled"><a >{% trans 'Previous'%}</a></li>
+                    {% endif %}
+
+                    {% for num in courses.paginator.page_range %}
+                        {% if num == 1 %}
+                            {% if num == courses.number %}
+                                <li><a class="disabled" style="background-color: rgba(0, 0, 0, 0.1);">{{ num }}</a></li>
+                            {% else %}
+                                <li><a href="?page={{ num }}">{{ num }}</a></li>
+                            {% endif %}
+                            {% if courses.number > 4 %}
+                                <li><a>...</a></li>
+                            {% endif %}
+                        {% elif num >= courses.number|add:'-2' and num <= courses.number|add:'2' %}
+                            {% if num == courses.number %}
+                                <li><a class="disabled" style="background-color: rgba(0, 0, 0, 0.1);">{{ num }}</a></li>
+                            {% else %}
+                                <li><a href="?page={{ num }}" >{{ num }}</a></li>
+                            {% endif %}
+                        {% elif num == courses.paginator.num_pages %}
+                            {% if courses.number < courses.paginator.num_pages|add:'-3' %}
+                                <li><a>...</a></li>
+                            {% endif %}
+                            {% if num == courses.number %}
+                                <li><a class="disabled" style="background-color: rgba(0, 0, 0, 0.1);">{{ num }}</a></li>
+                            {% else %}
+                                <li><a href="?page={{ num }}">{{ num }}</a></li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+
+                    {% if courses.has_next %}
+                        <li class="next"><a href="?page={{ courses.next_page_number }}">{% trans 'Next'%}</a></li>
+                    {% else %}
+                        <li class="next disabled"><a>{% trans 'Next'%}</a></li>
+                    {% endif %}
+                </ul>
+
+            </div>
+            <!-- <div class="vs-pagination">
+                <ul>
+                    <li class="prev"><a href="#">Previous</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">.....</a></li>
+                    <li><a href="#">10</a></li>
+                    <li class="next"><a href="#">Next</a></li>
+                </ul>
+            </div> -->
+        </div>
+    </section>
+
+{% endblock %}

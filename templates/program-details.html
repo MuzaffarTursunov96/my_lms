@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <!--==============================
+    Breadcumb
+    ============================== -->
+    <div class="breadcumb-wrapper " data-bg-src="{% static 'assets/img/breadcumb/breadcumb-bg.png'%}">
+        <div class="container z-index-common">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">{% trans 'Program Details'%}</h1>
+                <div class="breadcumb-menu-wrap">
+                    <ul class="breadcumb-menu">
+                        <li><a href="{% url 'index' %}">{% trans 'Home'%}</a></li>
+                        <li>{% trans 'Program Details'%}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--==============================
+      Pricing Area
+  ==============================-->
+    <section class="space-top space-extra-bottom">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <span class="sec-subtitle3">CERTIFICATE</span>
+                    <h2 class="h1 mb-4 pb-2">Health Professions Education</h2>
+                    <div class="list-style1 vs-list mb-4 mb-xl-5">
+                        <ul>
+                            <li>Acting as school counselors in other school settings.</li>
+                            <li>Working in advising and career development centers in higher education.</li>
+                            <li>Working with children and youth in community programs.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto align-self-end mb-5">
+                    <span class="guarant-badge">Guaranteed 40% tuition scholarships</span>
+                </div>
+            </div>
+            <div class="mega-hover rounded-20 mb-5"><img src="{% static 'assets/img/about/program-details-1.jpg'%}" alt="teaching"></div>
+            <h5 class="border-title2 mb-4">Overview</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborums nisi ut aliquip ex ea commosi ut aliquip ex ea commodo cons magna aliqua. Ut enim ad minim veniam equatdo.</p>
+            <p>Below is a list of approved certificate programs administered through the Multidisciplinary Studies Center:</p>
+            <div class="list-style5 vs-list ">
+                <ul>
+                    <li>Acting as school counselors in other school settings.</li>
+                    <li>Working in advising and career development centers in higher education.</li>
+                    <li>Working with children and youth in community programs.</li>
+                </ul>
+            </div>
+            <h5 class="border-title2  mb-3 pb-2">Core Courses</h5>
+            <div class="list-style6 vs-list ">
+                <ul>
+                    <li>MATH/STAT 201: Introduction to Probability</li>
+                    <li>MATH/STAT 203: Introduction to Mathematical Statistics</li>
+                    <li>MATH 165: Linear Algebra with Differential Equations</li>
+                </ul>
+            </div>
+            <h5 class="border-title2 mb-3">Additional Courses</h5>
+            <div class="list-style6 vs-list">
+                <ul>
+                    <li>MATH 202: Introduction to Stochastic Processes</li>
+                    <li>MATH 208: Operations Research I</li>
+                    <li>MATH/STAT 280: Introduction to Numerical Analysis</li>
+                    <li>STAT 216: Applied Statistical Methods II</li>
+                    <li>STAT 221: Sampling Techniques</li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <div class="mega-hover rounded-20"><img src="{% static 'assets/img/about/program-details-2.jpg'%}" alt="collaboration" class="w-100"></div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="mega-hover rounded-20"><img src="{% static 'assets/img/about/program-details-3.jpg'%}" alt="discussion" class="w-100"></div>
+                </div>
+            </div>
+            <h5 class="border-title2 mb-3">Program Features</h5>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="list-style6 vs-list mb-4">
+                        <ul>
+                            <li>Accreditation of Counseling &amp; Related Educational Programs</li>
+                            <li>informed by cutting-edge research</li>
+                            <li>Network with the best and the brightest future school counselors</li>
+                            <li>Doctoral degree by earning transferable credits.</li>
+                            <li>Learn how to help create a bright future for all students.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="list-style6 vs-list mb-4">
+                        <ul>
+                            <li>Leverage the reputation of a leading research university</li>
+                            <li>Be challenged to become an innovator, thought leader</li>
+                            <li>Learn how to help create a bright future for all students.</li>
+                            <li>Network with the best and the brightest future school counselors.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h5 class="border-title2 mb-4">Requirements</h5>
+            <p class="mb-4 pb-2">For certification, students must complete course requirements with a GPA of at least 2.5. None of the certificate courses may be taken satisfactory/fail. <br><b><span class="text-theme">Please note:</span> Course substitutions may be possible with the program advisor’s approval.</b></p>
+            <h5 class="border-title2 mb-4">Internships</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborums nisi ut aliquip ex ea commosi ut aliquip ex ea commodo cons magna aliqua. Ut enim ad minim veniam equatdo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia eserunt mollit anim id est laborums nisi ut aliquip ex ea commosi ut aliquip ex ea commodo cons magna aliqua. Ut enim ad minim veniam equatdo.</p>
+        </div>
+    </section>
+{%endblock%}
