@@ -17,6 +17,8 @@
                     {% if request.user.is_authenticated%}
                     <span>{{request.user.first_name}}</span>
                     <span>{{request.user.last_name}}</span>
+                    <span><a class="user-login" href="{% url 'logout' %}"><i class="fas fa-user-circle"></i> {%trans 'Log out'%}</a></span>
+
                     {% else %}
                     <a class="user-login" href="{% url 'login' %}"><i class="fas fa-user-circle"></i> {%trans 'Login & Register'%}</a>
                     {% endif %}
